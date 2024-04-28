@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="pri_colorBg">@android:color/system_neutral1_50</color>
+    <color name="pri_colorAccent">@android:color/system_accent1_500</color>
+
+    <!-- Material next state on color-->
+    <color name="settingslib_state_on_color">@android:color/system_accent1_100</color>
+
+    <!-- Material next state off color-->
+    <color name="settingslib_state_off_color">@android:color/system_accent2_100</color>
+
+    <!-- Material next thumb disable color-->
+    <color name="settingslib_thumb_disabled_color">@android:color/system_neutral2_100</color>
+
+    <!-- Material next thumb off color-->
+    <color name="settingslib_thumb_off_color">@android:color/system_neutral2_300</color>
+
+    <!-- Material next track on color-->
+    <color name="settingslib_track_on_color">@android:color/system_accent1_600</color>
+
+    <!-- Material next track off color-->
+    <color name="settingslib_track_off_color">@android:color/system_neutral2_500</color>
+
+    <color name="settingslib_colorSurfaceHeader">@android:color/system_neutral1_100</color>
+    <color name="settingslib_text_color_primary_device_default">@android:color/system_neutral1_900</color>
+
+</resources>

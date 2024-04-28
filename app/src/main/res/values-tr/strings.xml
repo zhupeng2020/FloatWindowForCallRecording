@@ -1,0 +1,7 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name_title">Telefon Kaydı</string>
+    <string name="app_name_summary">Telefon kaydı özelliği sayesinde telefon kayıtlarını saklamanıza olanak tanır</string>
+    <string name="switch_item_summary">"WhatsApp aramaları sırasında kullanılabilir"</string>
+    <string name="phone_recording_prompt">Kayıt, dahili paylaşılan depolama /Music alanına kaydedildi</string>
+    <string name="btn_record_manager_title">Arama kayıt yönetimi</string>
+</resources>

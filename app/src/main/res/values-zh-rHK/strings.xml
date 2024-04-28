@@ -1,0 +1,7 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name_title">通話錄音</string>
+    <string name="app_name_summary">通話錄音功能使您能夠存儲通話錄音</string>
+    <string name="switch_item_summary">"在 WhatsApp 通話期間可用"</string>
+    <string name="phone_recording_prompt">錄音已經保存到內部共用儲存空間 /Music</string>
+    <string name="btn_record_manager_title">通話錄音管理</string>
+</resources>

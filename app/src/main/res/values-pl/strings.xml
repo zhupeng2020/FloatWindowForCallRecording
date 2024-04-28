@@ -1,0 +1,7 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name_title">Nagrywanie rozmów telefonicznych</string>
+    <string name="app_name_summary">Funkcja nagrywania rozmów telefonicznych pozwala przechowywać nagrania rozmów telefonicznych</string>
+    <string name="switch_item_summary">"Dostępne podczas połączeń WhatsApp"</string>
+    <string name="phone_recording_prompt">Nagranie zostało zapisane w wewnętrznej pamięci współdzielonej /Music</string>
+    <string name="btn_record_manager_title">Zarządzanie nagrywaniem rozmów</string>
+</resources>

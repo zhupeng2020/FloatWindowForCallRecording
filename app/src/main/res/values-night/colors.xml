@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pri_colorBg">#1f1f1f</color>
+    <color name="pri_navigation_bar_color">#1f1f1f</color>
+
+    <color name="pri_title_color">#E6ffffff</color>
+    <color name="pri_summary_color">#99ffffff</color>
+    <color name="dot_color">#E6ffffff</color>
+    <color name="pri_card_preference_bg">#35363A</color>
+</resources>

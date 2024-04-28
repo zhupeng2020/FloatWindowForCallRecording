@@ -1,0 +1,2 @@
+rootProject.name = "PriRecordView"
+include ':app'

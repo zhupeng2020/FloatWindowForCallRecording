@@ -1,0 +1,9 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <item name="last_click_time" type="id" />
+
+    <string name="app_name_title">Phone Recording</string>
+    <string name="app_name_summary">Phone recording feature allows you to store phone recordings</string>
+    <string name="switch_item_summary">"Available during WhatsApp calls"</string>
+    <string name="phone_recording_prompt">Recording has been saved to internal shared storage /Music</string>
+    <string name="btn_record_manager_title">Phone recording management</string>
+</resources>

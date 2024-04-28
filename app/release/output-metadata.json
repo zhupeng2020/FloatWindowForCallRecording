@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.pri.recordview",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 140240428,
+      "versionName": "14.0.240428",
+      "outputFile": "PriRecordView.apk"
+    }
+  ],
+  "elementType": "File"
+}

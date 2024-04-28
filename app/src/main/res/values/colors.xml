@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="pri_colorBg">#ffffff</color>
+    <color name="pri_colorAccent">#3478F6</color>
+    <color name="pri_status_bar_color">#000000</color>
+    <color name="pri_navigation_bar_color">@color/pri_colorBg</color>
+
+    <color name="pri_press_gray">#1F000000</color>
+    <color name="pri_normal_bg_color">#ff444444</color>
+    <color name="pri_view_fill_color">#ffffff</color>
+
+    <color name="pri_float_bg_color">#ff000000</color>
+
+    <color name="pri_title_color">#000000</color>
+    <color name="pri_summary_color">#969696</color>
+
+    <color name="dot_color">#1F000000</color>
+    <color name="pri_card_preference_bg">#ffffff</color>
+    <color name="color_red">#FFFF0000</color>
+
+</resources>

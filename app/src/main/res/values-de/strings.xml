@@ -1,0 +1,7 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name_title">Telefonaufnahme</string>
+    <string name="app_name_summary">Die Telefonrekordfunktion ermöglicht es Ihnen, Telefonaufnahmen zu speichern</string>
+    <string name="switch_item_summary">"Während WhatsApp-Anrufen verfügbar"</string>
+    <string name="phone_recording_prompt">Die Aufnahme wurde im internen freigegebenen Speicher /Music gespeichert</string>
+    <string name="btn_record_manager_title">Anrufaufzeichnungsverwaltung</string>
+</resources>

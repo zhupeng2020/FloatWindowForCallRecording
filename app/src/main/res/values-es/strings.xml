@@ -1,0 +1,7 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name_title">Grabación telefónica</string>
+    <string name="app_name_summary">La función de grabación telefónica te permite almacenar grabaciones telefónicas</string>
+    <string name="switch_item_summary">"Disponible durante las llamadas de WhatsApp"</string>
+    <string name="phone_recording_prompt">La grabación se ha guardado en el almacenamiento compartido interno /Music</string>
+    <string name="btn_record_manager_title">Gestión de grabación de llamadas</string>
+</resources>

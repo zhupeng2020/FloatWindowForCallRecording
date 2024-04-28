@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="FloatWindowTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">@bool/config_light_statusBar</item>
+
+        <item name="android:navigationBarDividerColor">@null</item>
+        <item name="android:navigationBarColor">@color/pri_colorBg</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="colorPrimary">@color/pri_colorBg</item>
+        <item name="colorAccent">@color/pri_colorAccent</item>
+<!--        <item name="colorControlNormal">@color/pri_colorAccent</item>-->
+
+        <item name="android:switchStyle">@style/SwitchViewStyle</item>
+
+    </style>
+
+    <style name="SwitchViewStyle" parent="@android:style/Widget.Material.CompoundButton.Switch">
+        <item name="android:switchMinWidth">26dp</item>
+        <item name="android:minHeight">23dp</item>
+        <item name="android:track">@drawable/pri_settingslib_switch_track</item>
+        <item name="android:thumb">@drawable/pri_settingslib_switch_thumb</item>
+    </style>
+
+    <!-- Add for CollapsingToolbarLayout title Expanded style -->
+    <style name="PriExpandedTitleTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/pri_title_color</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Add for CollapsingToolbarLayout title Collapsed style -->
+    <style name="PriCollapsedTitleTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/pri_title_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

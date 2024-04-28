@@ -1,0 +1,7 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name_title">Телефонная запись</string>
+    <string name="app_name_summary">Функция записи телефонных разговоров позволяет вам хранить записи телефонных разговоров</string>
+    <string name="switch_item_summary">"Доступно во время звонков WhatsApp"</string>
+    <string name="phone_recording_prompt">Запись была сохранена во внутреннем общем хранилище /Music</string>
+    <string name="btn_record_manager_title">Управление записью звонков</string>
+</resources>

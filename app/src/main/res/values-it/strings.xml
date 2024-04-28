@@ -1,0 +1,7 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name_title">Registrazione telefonica</string>
+    <string name="app_name_summary">La funzione di registrazione telefonica ti consente di memorizzare le registrazioni telefoniche</string>
+    <string name="switch_item_summary">"Disponibile durante le chiamate WhatsApp"</string>
+    <string name="phone_recording_prompt">La registrazione è stata salvata nella memoria interna condivisa /Music</string>
+    <string name="btn_record_manager_title">Gestione delle registrazioni delle chiamate</string>
+</resources>

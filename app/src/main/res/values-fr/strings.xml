@@ -1,0 +1,7 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name_title">Enregistrement téléphonique</string>
+    <string name="app_name_summary">"La fonction d'enregistrement téléphonique vous permet de stocker les enregistrements téléphoniques"</string>
+    <string name="switch_item_summary">"Disponible pendant les appels WhatsApp"</string>
+    <string name="phone_recording_prompt">"L'enregistrement a été sauvegardé dans le stockage partagé interne /Music"</string>
+    <string name="btn_record_manager_title">"Gestion de l'enregistrement des appels"</string>
+</resources>

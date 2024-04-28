@@ -1,0 +1,105 @@
+apply plugin: 'com.android.application'
+
+// auto release version
+static def releaseTime() {
+    return new Date().format("yyyyMMdd", TimeZone.getTimeZone("GMT+8"))
+}
+
+android {
+    namespace 'com.pri.recordview'
+    compileSdkVersion 34
+    defaultConfig {
+        applicationId "com.pri.recordview"
+        minSdkVersion 30
+        targetSdkVersion 34
+
+//        versionCode 140231228
+//        versionName "14.0.231228"
+//        versionName "v" + versionCode + ".0_" + releaseTime()
+    }
+
+    // auto release version name
+    android.applicationVariants.all {
+        variant ->
+            variant.outputs.all {
+                //outputFileName = "${rootProject.name}.${variant.name}.${variant.versionName}.apk"
+                outputFileName = "${rootProject.name}.apk"
+            }
+    }
+
+    // release key set
+    signingConfigs {
+        release {
+            storeFile file("../signingConfigs/android.jks")
+            storePassword "android"
+            keyAlias "shenzhen"
+            keyPassword "android"
+        }
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            zipAlignEnabled false
+            signingConfig signingConfigs.release
+        }
+        release {
+            debuggable false
+            zipAlignEnabled true
+            // code obfuscation
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            shrinkResources true
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        //checkReleaseBuilds false
+        //abortOnError false
+        disable "ResourceType", "ExpiredTargetSdkVersion"
+    }
+
+}
+
+preBuild {
+    doLast {
+        def imlFile = file(project.name + ".iml")
+        println 'Change ' + project.name + '.iml order'
+        try {
+            def parsedXml = (new XmlParser()).parse(imlFile)
+            def jdkNode = parsedXml.component[1].orderEntry.find { it.'@type' == 'jdk' }
+            parsedXml.component[1].remove(jdkNode)
+            def sdkString = "Android API " + android.compileSdkVersion.substring("android-".length()) + " Platform"
+            new Node(parsedXml.component[1], 'orderEntry', ['type': 'jdk', 'jdkName': sdkString, 'jdkType': 'Android SDK'])
+            groovy.xml.XmlUtil.serialize(parsedXml, new FileOutputStream(imlFile))
+        } catch (FileNotFoundException e) {
+        }
+    }
+}
+
+dependencies {
+    //implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
+    //implementation files('libs/PriAndroidSupportLegacyV0.3.aar')
+    releaseCompileOnly files('libs/framework_u.jar')
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+
+    //implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    //implementation "androidx.legacy:legacy-preference-v14:1.0.0"
+    //implementation "androidx.preference:preference:1.2.0"
+    //implementation "androidx.lifecycle:lifecycle-common:2.6.2"
+
+//    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+//    implementation 'androidx.navigation:navigation-fragment:2.5.3'
+//    implementation 'androidx.navigation:navigation-ui:2.5.3'
+//    testImplementation 'junit:junit:4.13.2'
+//    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}

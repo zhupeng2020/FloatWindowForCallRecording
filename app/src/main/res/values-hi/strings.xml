@@ -1,0 +1,7 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name_title">फोन रिकॉर्डिंग</string>
+    <string name="app_name_summary">फोन रिकॉर्डिंग सुविधा आपको फोन रिकॉर्डिंग्स सहेजने की सुविधा प्रदान करती है</string>
+    <string name="switch_item_summary">"WhatsApp कॉल के दौरान उपलब्ध है"</string>
+    <string name="phone_recording_prompt">रिकॉर्डिंग को आंतरिक साझा भंडारण /Music</string>
+    <string name="btn_record_manager_title">कॉल रिकॉर्डिंग प्रबंधन</string>
+</resources>

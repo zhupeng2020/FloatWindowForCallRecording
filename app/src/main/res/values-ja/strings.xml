@@ -1,0 +1,7 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name_title">電話録音</string>
+    <string name="app_name_summary">電話録音機能により、通話録音を保存できます</string>
+    <string name="switch_item_summary">"WhatsApp の通話中に使用可能"</string>
+    <string name="phone_recording_prompt">録音は内部共有ストレージ/Musicに保存されました</string>
+    <string name="btn_record_manager_title">電話録音管理</string>
+</resources>
